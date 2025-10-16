@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    min-height: 150px;
+    }
+
+header>h1 {
+    font-family: "Passion One", sans-serif;
+    font-weight: bold;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    margin-top:50px ;
+    
+
+}
+
+header>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+main p {
+      font-family: "Sriracha", cursive;
+      font-size: 3.5vw;
+      max-width: 45vw;
+     line-height: 7vw;
+
+}
+
+#img1 {
+        background-image: url(https://images.pexels.com/photos/2099737/pexels-photo-2099737.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 60px 0px 60px 0px;
+}
+
+#two {
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    margin-left: 30px;
+    padding: 0px 10px 0px 10px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+
+}
+
+#img2 {
+    background-image: url(https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0px 60px 0px;
+}
+
+#three {
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    padding: 0px 10px 0px 10px;
+    margin-left: 30px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+}
+
+.txt {
+    margin: 50px 0px 50px 30px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.479);
+
+}
